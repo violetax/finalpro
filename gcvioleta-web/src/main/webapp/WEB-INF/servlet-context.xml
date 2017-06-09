@@ -14,7 +14,7 @@
 	<beans:bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean" >
 	    <beans:property name="converters">
 	        <beans:set>
-	        <!--  <beans:bean class="com.ipartek.violeta.controller.converter.ProfesorConverter"/>  -->   
+	        <!--  <beans:bean class="com.ipartek.proyectofinal.controller.converter.ProfesorConverter"/>  -->   
 	        </beans:set>
 	    </beans:property>
 	</beans:bean>
@@ -45,13 +45,13 @@
 
 <!-- 
 	<beans:bean id="alumnoValidator" 
-	class="com.ipartek.violeta.controller.validator.AlumnoValidator"/>
+	class="com.ipartek.proyectofinal.controller.validator.AlumnoValidator"/>
 	
 	<beans:bean id="clienteValidator" 
-	class="com.ipartek.violeta.controller.validator.ClienteValidator"/>
+	class="com.ipartek.proyectofinal.controller.validator.ClienteValidator"/>
 		
 	<beans:bean id="cursoValidator" 
-	class="com.ipartek.violeta.controller.validator.CursoValidator"/>
+	class="com.ipartek.proyectofinal.controller.validator.CursoValidator"/>
  -->	
  
 	<beans:bean id="localeResolver"
@@ -70,10 +70,10 @@
 	
 	<context:annotation-config />
 	<context:property-placeholder location="classpath:/constantes/constantes.properties"/>
-	<context:component-scan base-package="com.ipartek.violeta" />
+	<context:component-scan base-package="com.ipartek.proyectofinal" />
 	
 	<!--
-<beans:bean id="simpleMappingExceptionResolver" class="com.ipartek.violeta.controller.resolver.MyMappingExceptionResolver">
+<beans:bean id="simpleMappingExceptionResolver" class="com.ipartek.proyectofinal.controller.resolver.MyMappingExceptionResolver">
 	 -->	
 	
 </beans:beans>

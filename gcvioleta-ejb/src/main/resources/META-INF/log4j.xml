@@ -20,7 +20,7 @@
 	    </layout>
 	</appender>
 	<!-- Application Loggers -->
-	<logger name="com.ipartek.violeta">
+	<logger name="com.ipartek.proyectofinal">
 		<level value="all" />
 	</logger>
 	
